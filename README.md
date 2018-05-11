@@ -3,7 +3,6 @@
 
 ![TinyADK-1312-S70-B01b](https://github.com/yifengyou/FriendlyARM-Tiny6410/blob/master/image/tinyadk-1312-s70-b01b.png)
 
-
 >Tiny6410简介
 
 * Tiny6410是一款以ARM11芯片(三星S3C6410)作为主处理器的嵌入式核心板，该CPU基于ARM1176JZF-S核设计，内部集成了强大的多媒体处理单元，支持Mpeg4, H.264/H.263等格式的视频文件硬件编解码，可同时输出至LCD和TV显示；它还并带有3D图形硬件加速器，以实现OpenGL ES 1.1 & 2.0加速渲染，另外它还支持2D图形图像的平滑缩放，翻转等操作。
