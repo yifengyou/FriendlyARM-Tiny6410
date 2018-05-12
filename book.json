@@ -1,9 +1,4 @@
 {
-    "plugins": ["toggle-chapters"]
-}
-
-
-{
     "title": "FriendlyARM-Tiny6410学习笔记",
     "description": "记录FriendlyARM-Tiny6410",
     "author": "yifengyou",
