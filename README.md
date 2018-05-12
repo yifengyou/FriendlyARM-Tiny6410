@@ -1,7 +1,7 @@
 # FriendlyARM-Tiny6410
 
 
-![TinyADK-1312-S70-B01b](https://github.com/yifengyou/FriendlyARM-Tiny6410/blob/master/image/tinyadk-1312-s70-b01b.png)
+![TinyADK-1312-S70-B01b](image/tinyadk-1312-s70-b01b.png)
 
 >Tiny6410简介
 
@@ -15,17 +15,17 @@
 
 ---
 
-![topside](https://github.com/yifengyou/FriendlyARM-Tiny6410/blob/master/image/topside.png)
+![topside](image/topside.png)
 <br />
-![backside](https://github.com/yifengyou/FriendlyARM-Tiny6410/blob/master/image/backside.png)
-
-<br />
-
-![tiny6410-android](https://github.com/yifengyou/FriendlyARM-Tiny6410/blob/master/image/tiny6410-android.png)
+![backside](image/backside.png)
 
 <br />
 
-![coreboard](https://github.com/yifengyou/FriendlyARM-Tiny6410/blob/master/image/coreboard.png)
+![tiny6410-android](image/tiny6410-android.png)
+
+<br />
+
+![coreboard](image/coreboard.png)
 
 <br />
 
