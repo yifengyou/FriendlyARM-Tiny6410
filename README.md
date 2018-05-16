@@ -4,7 +4,12 @@
 ![TinyADK-1312-S70-B01b](image/tinyadk-1312-s70-b01b.png)
 
 本仓库已经开始作为gitboot仓库，访问地址
+
 <https://yifengyou.gitbooks.io/friendlyarm-tiny6410/content/>
+
+GitHub访问地址
+
+<https://github.com/yifengyou/FriendlyARM-Tiny6410/>
 
 >Tiny6410简介
 
