@@ -6,12 +6,10 @@
 		- [内核驱动模板](#内核驱动模板)
 		- [Makefile编写](#makefile编写)
 		- [字符设备驱动框架](#字符设备驱动框架)
-		- [字符设备open实现](#字符设备open实现)
-		- [字符设备ioctl实现](#字符设备ioctl实现)
+		- [LED驱动-字符设备open实现](#led驱动-字符设备open实现)
+		- [LED驱动-字符设备ioctl实现](#led驱动-字符设备ioctl实现)
 	- [源码](#源码)
 		- [LED驱动源码](#led驱动源码)
-- [define LEDCON 0x7f008800](#define-ledcon-0x7f008800)
-- [define LEDDAT 0x7f008808](#define-leddat-0x7f008808)
 		- [应用程序源码](#应用程序源码)
 	- [总结](#总结)
 
@@ -43,12 +41,41 @@
 
 ![1526782509489.png](image/1526782509489.png)
 
+![1526782597402.png](image/1526782597402.png)
+
       采用静态分配cdev
 
-### 字符设备open实现
+![1526782589904.png](image/1526782589904.png)
 
 
-### 字符设备ioctl实现
+### LED驱动-字符设备open实现
+
+      配置GPIO - open
+      控制 - ioctl
+
+![1526782830671.png](image/1526782830671.png)
+
+![1526782884935.png](image/1526782884935.png)
+
+![1526782903454.png](image/1526782903454.png)
+
+![1526782951655.png](image/1526782951655.png)
+
+      但是在Linux上不能直接使用物理地址，需要转换成虚拟地址。
+      如何转换？使用ioremap()函数
+
+![1526783004294.png](image/1526783004294.png)
+
+      写入也不能直接写，有专门函数writel()
+
+![1526783041266.png](image/1526783041266.png)
+
+![1526783088378.png](image/1526783088378.png)
+
+
+
+
+### LED驱动-字符设备ioctl实现
 
 
 
@@ -65,8 +92,8 @@
 \#include <linux/io.h>
 \#include "led.h"
 
-#define LEDCON 0x7f008800
-#define LEDDAT 0x7f008808
+\#define LEDCON 0x7f008800
+\#define LEDDAT 0x7f008808
 unsigned int *led_config;
 unsigned int *led_data;
 
