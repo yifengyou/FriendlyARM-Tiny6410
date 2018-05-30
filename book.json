@@ -1,139 +1,137 @@
 {
-    "title": "FriendlyARM-Tiny6410学习笔记",
-    "description": "记录FriendlyARM-Tiny6410",
-    "author": "yifengyou",
-    "output.name": "site",
-    "language": "zh-hans",
-    "gitbook": "3.2.3",
-    "root": ".",
-    "structure": {
-        "readme": "README.md"
-    },
-    "links": {
-        "sidebar": {
-            "Home": "http://github.com/yifengyou"
-        }
-    }
-        "theme-default": {
-            "showLevel": true
-        },
-        "disqus": {
-            "shortName": "gitbookuse"
-        },
-        "prism": {
-            "css": [
-                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-            ]
-        },
-        "github": {
-            "url": "https://github.com/yifengyou/FriendlyARM-Tiny6410"
-        },
-        "github-buttons": {
-            "repo": "yifengyou/FriendlyARM-Tiny6410",
-            "types": [
-                "star"
-            ],
-            "size": "small"
-        },
-        "include-codeblock": {
-            "template": "ace",
-            "unindent": true,
-            "edit": true
-        },
-        "sharing": {
-           "douban": false,
-           "facebook": false,
-           "google": true,
-           "hatenaBookmark": false,
-           "instapaper": false,
-           "line": false,
-           "linkedin": true,
-           "messenger": false,
-           "pocket": false,
-           "qq": false,
-           "qzone": false,
-           "stumbleupon": false,
-           "twitter": false,
-           "viber": false,
-           "vk": false,
-           "weibo": true,
-           "whatsapp": false,
-           "all": [
-               "facebook", "google", "twitter",
-               "weibo", "instapaper", "linkedin",
-               "pocket", "stumbleupon", "qq", "qzone"
-           ]
-       },
-        "tbfed-pagefooter": {
-            "copyright": "Copyright © zhangjikai.com 2017",
-            "modify_label": "该文件修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
-        },
-        "3-ba": {
-            "token": "ff100361cdce95dd4c8fb96b4009f7bc"
-        },
-        "donate": {
-            "wechat": "https://zhangjikai.com/resource/weixin.png",
-            "alipay": "https://zhangjikai.com/resource/alipay.png",
-            "title": "",
-            "button": "赏",
-            "alipayText": "支付宝打赏",
-            "wechatText": "微信打赏"
-        },
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-        },
-        "edit-link": {
-            "base": "https://github.com/yifengyou/FriendlyARM-Tiny6410",
-            "label": "Edit This Page"
-        },
-        "sitemap-general": {
-            "prefix": "https://github.com/yifengyou/FriendlyARM-Tiny6410"
-        },
-        "anchor-navigation-ex": {
-            "isRewritePageTitle": false,
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
-        },
-        "sectionx": {
-            "tag": "b"
-        },
-        "favicon": {
-            "shortcut": "favicon.ico",
-            "bookmark": "favicon.ico"
-        },
-        "terminal": {
-            "copyButtons": true,
-            "fade": false,
-            "style": "flat"
-        },
-
-        "versions": {
-            "options": [
-                {
-                    "value": "https://github.com/yifengyou/FriendlyARM-Tiny6410",
-                    "text": "v3.2.3"
-                },
-                {
-                    "value": "https://github.com/yifengyou/FriendlyARM-Tiny6410",
-                    "text": "v2.6.4"
-                }
-            ]
-        },
-
-        "rss": {
-            "title": "GitBook 使用教程",
-            "description": "记录 GitBook 的配置和一些插件的使用",
-            "author": "Jikai Zhang",
-            "feed_url": "https://github.com/yifengyou/FriendlyARM-Tiny6410",
-            "site_url": "https://github.com/yifengyou/FriendlyARM-Tiny6410",
-            "managingEditor": "842056007@qq.com",
-            "webMaster": "842056007@qq.com",
-            "categories": [
-                "gitbook"
-            ]
-        }
-    }
+   "3-ba" : {
+      "token" : "ff100361cdce95dd4c8fb96b4009f7bc"
+   },
+   "anchor-navigation-ex" : {
+      "isRewritePageTitle" : false,
+      "tocLevel1Icon" : "fa fa-hand-o-right",
+      "tocLevel2Icon" : "fa fa-hand-o-right",
+      "tocLevel3Icon" : "fa fa-hand-o-right"
+   },
+   "author" : "yifengyou",
+   "description" : "记录FriendlyARM-Tiny6410",
+   "disqus" : {
+      "shortName" : "gitbookuse"
+   },
+   "donate" : {
+      "alipay" : "https://zhangjikai.com/resource/alipay.png",
+      "alipayText" : "支付宝打赏",
+      "button" : "赏",
+      "title" : "",
+      "wechat" : "https://zhangjikai.com/resource/weixin.png",
+      "wechatText" : "微信打赏"
+   },
+   "edit-link" : {
+      "base" : "https://github.com/yifengyou/FriendlyARM-Tiny6410",
+      "label" : "Edit This Page"
+   },
+   "favicon" : {
+      "bookmark" : "favicon.ico",
+      "shortcut" : "favicon.ico"
+   },
+   "gitbook" : "3.2.3",
+   "github" : {
+      "url" : "https://github.com/yifengyou/FriendlyARM-Tiny6410"
+   },
+   "github-buttons" : {
+      "repo" : "yifengyou/FriendlyARM-Tiny6410",
+      "size" : "small",
+      "types" : [ "star" ]
+   },
+   "include-codeblock" : {
+      "edit" : true,
+      "template" : "ace",
+      "unindent" : true
+   },
+   "language" : "zh-hans",
+   "links" : {
+      "sidebar" : {
+         "Home" : "http://github.com/yifengyou"
+      }
+   },
+   "output.name" : "site",
+   "prism" : {
+      "css" : [ "prism-themes/themes/prism-base16-ateliersulphurpool.light.css" ]
+   },
+   "root" : ".",
+   "rss" : {
+      "author" : "Jikai Zhang",
+      "categories" : [ "gitbook" ],
+      "description" : "记录 GitBook 的配置和一些插件的使用",
+      "feed_url" : "https://github.com/yifengyou/FriendlyARM-Tiny6410",
+      "managingEditor" : "842056007@qq.com",
+      "site_url" : "https://github.com/yifengyou/FriendlyARM-Tiny6410",
+      "title" : "GitBook 使用教程",
+      "webMaster" : "842056007@qq.com"
+   },
+   "sectionx" : {
+      "tag" : "b"
+   },
+   "sharing" : {
+      "all" : [
+         "facebook",
+         "google",
+         "twitter",
+         "weibo",
+         "instapaper",
+         "linkedin",
+         "pocket",
+         "stumbleupon",
+         "qq",
+         "qzone"
+      ],
+      "douban" : false,
+      "facebook" : false,
+      "google" : true,
+      "hatenaBookmark" : false,
+      "instapaper" : false,
+      "line" : false,
+      "linkedin" : true,
+      "messenger" : false,
+      "pocket" : false,
+      "qq" : false,
+      "qzone" : false,
+      "stumbleupon" : false,
+      "twitter" : false,
+      "viber" : false,
+      "vk" : false,
+      "weibo" : true,
+      "whatsapp" : false
+   },
+   "simple-page-toc" : {
+      "maxDepth" : 3,
+      "skipFirstH1" : true
+   },
+   "sitemap-general" : {
+      "prefix" : "https://github.com/yifengyou/FriendlyARM-Tiny6410"
+   },
+   "structure" : {
+      "readme" : "README.md"
+   },
+   "tbfed-pagefooter" : {
+      "copyright" : "Copyright ? zhangjikai.com 2017",
+      "modify_format" : "YYYY-MM-DD HH:mm:ss",
+      "modify_label" : "该文件修订时间："
+   },
+   "terminal" : {
+      "copyButtons" : true,
+      "fade" : false,
+      "style" : "flat"
+   },
+   "theme-default" : {
+      "showLevel" : true
+   },
+   "title" : "FriendlyARM-Tiny6410学习笔记",
+   "versions" : {
+      "options" : [
+         {
+            "text" : "v3.2.3",
+            "value" : "https://github.com/yifengyou/FriendlyARM-Tiny6410"
+         },
+         {
+            "text" : "v2.6.4",
+            "value" : "https://github.com/yifengyou/FriendlyARM-Tiny6410"
+         }
+      ]
+   }
 }
