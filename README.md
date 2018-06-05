@@ -10,6 +10,12 @@ GitHub访问地址
 
 <https://github.com/yifengyou/FriendlyARM-Tiny6410/>
 
+```
+Something I hope you know before go into the coding~
+First, please watch or star this repo, I'll be more happy if you follow me.
+Bug report, questions and discussion are welcome, you can post an issue or pull a request.
+```
+
 >Tiny6410简介
 
 * Tiny6410是一款以ARM11芯片(三星S3C6410)作为主处理器的嵌入式核心板，该CPU基于ARM1176JZF-S核设计，内部集成了强大的多媒体处理单元，支持Mpeg4, H.264/H.263等格式的视频文件硬件编解码，可同时输出至LCD和TV显示；它还并带有3D图形硬件加速器，以实现OpenGL ES 1.1 & 2.0加速渲染，另外它还支持2D图形图像的平滑缩放，翻转等操作。
